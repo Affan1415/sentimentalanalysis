@@ -1,0 +1,14 @@
+mahreen don pharega kn
+poop
+bnvhfgf
+mahreen bratz
+
+RUN commannds
+
+--> .\venv\Scripts\activate
+--> python app.py
+
+
+pip install keras
+pip install tensorflow
+pip install numpy 7
