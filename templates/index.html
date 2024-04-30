@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #ffcc00;
+            background-color: #000000;
             margin: 0;
             padding: 0;
             display: flex;
@@ -46,14 +46,6 @@
             border: 1px solid #ccc;
             font-size: 16px;
         }
-        select {
-            width: 200px;
-            height: 40px;
-            font-size: 16px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            margin-bottom: 20px;
-        }
         input[type="submit"] {
             width: 120px;
             height: 40px;
@@ -74,12 +66,6 @@
     <div class="container">
         <h1>Goomba Sentimental Analysis</h1>
         <form action="/predict" method="post">
-            <label for="model">Select Model:</label>
-            <select name="model" id="model">
-                <option value="lstm">LSTM</option>
-                <option value="gru">GRU</option>
-            </select>
-            <br>
             <label for="text">Enter Text:</label>
             <textarea name="text" id="text" cols="30" rows="5"></textarea>
             <br>
