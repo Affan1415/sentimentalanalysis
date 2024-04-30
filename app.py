@@ -46,9 +46,9 @@ def predict():
     prediction, sentiment = predict_sentiment(lstm_model, text)
     
     if sentiment == "Positive":
-        image = "happy.png"
+        image = "happy.jpg"
     else:
-        image = "sad.png"
+        image = "sad.jpg"
     
     return render_template('result.html', prediction=prediction, sentiment=sentiment, image=image)
 
